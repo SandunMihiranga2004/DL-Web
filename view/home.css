@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.hm-head {
+   font-family: "Mooli", sans-serif;
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   background: linear-gradient(to top, #0dabf3, #72d3ff);
+   color: #ffffff;
+}
+.hm-text {
+   width: 90%;
+   height: auto;
+   margin: auto;
+   margin-top: 150px;
+   text-align: center;
+}
+.hm-text h2 {
+   font-weight: bold;
+   font-size: 30px;
+}
+.hm-text p {
+   font-size: 20px;
+}
+.hm-contain {
+   width: 100%;
+   height: auto;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.card {
+   border-radius: 15px;
+   background-color: white;
+   width: 550px !important;
+   margin: auto;
+   margin-top: 30px;
+   border: 0.5px solid #ededed;
+   text-align: left;
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px;
+}
+
+.card img {
+   width: 100%;
+}
+
+.t-title {
+   text-align: left;
+   height: 70px;
+   border-radius: 10px;
+}
+
+.magen {
+   color: darkmagenta;
+}
+.green {
+   color: darkgreen;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.c-in {
+   width: 400px !important;
+   text-align: center;
+   margin-bottom: 20px;
+   background-color: transparent;
+   border: none;
+}
+.c-in i {
+   font-size: 50px;
+   margin-bottom: 15px;
+   color: #be0fbe;
+}
+
+.tt-head {
+   background: linear-gradient(45deg, #007f7e, #010506, #82003c) !important;
+}
+.tt-head .hm-text {
+   margin-top: 15% !important;
+}
+.hm-text h2 {
+   font-weight: normal;
+}
+
+.btn-down {
+   width: 100% !important;
+   margin-top: 50px;
+}
+
+.result {
+   margin-top: 1%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.card-res {
+   width: 60% !important;
+   margin-bottom: 20px;
+}
+
+.result img {
+   width: 100%;
+   border-radius: 10px;
+   margin: auto;
+}
+
+.r-title {
+   text-align: center;
+   margin-top: 5px;
+}
+
+.d-b-c {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.d-b-c button {
+   border: 1px solid black;
+   color: black;
+}
+.d-b-c button:hover {
+   border: 1px solid black;
+   background-color: black;
+   color: white;
+}
+
+button {
+   padding: 10px;
+   height: 50px;
+   width: auto;
+   border-radius: 5px;
+   border: 1px solid white;
+   background-color: transparent;
+   color: white;
+   transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+   border: 1px solid white;
+   background-color: white;
+   color: black;
+}
