@@ -12,7 +12,7 @@ closeBtn.addEventListener("click", () => {
    navList.classList.add("nav-hidden");
    setTimeout(function () {
       navList.classList = "hide";
-   }, 200);
+   }, 500);
 });
 //dropdown
 //nav

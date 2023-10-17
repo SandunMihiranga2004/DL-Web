@@ -46,18 +46,18 @@ a:hover {
 
 @keyframes slideFromRight {
    0% {
-      left: 600px;
+      right: -600px;
    }
    100% {
-      left: 346px;
+      right: 0;
    }
 }
 @keyframes slideFromLeft {
    0% {
-      left: 346px;
+      right: 0;
    }
    100% {
-      left: 600px;
+      right: -600px;
    }
 }
 @keyframes swipeTop {
@@ -136,7 +136,6 @@ li a {
    box-shadow: -2px 0px 10px rgba(72, 69, 69, 0.075);
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   transform: translate(-50% -50%);
 }
 
 .close-btn {
@@ -160,7 +159,7 @@ li a {
    animation: slideFromRight 0.2s ease-in-out forwards;
 }
 .nav-hidden {
-   left: 600px;
+   right: -100px;
    animation: slideFromLeft 0.2s ease-in-out forwards;
 }
 .hide {
